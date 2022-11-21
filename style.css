@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;;
+}
+.container{
+    padding-top: 20px;
+}
+
+.navbar-nav li a{
+    display: none;
+    padding-bottom: 10px;
+}
+
+.top-image img{
+    width: 350px;
+    padding: 10px 0;
+}
+
+.top-container .top-title h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.top-container .top-details p{
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+}
+
+.top-button{
+    padding: 10px 20px;
+    font-weight: 800;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    font-size: 8px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.mid-container{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.mid-container .mid-title h2{
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.mid-container .mid-container-details .mid-sub-heading h6{
+    font-weight: 800;
+}
+
+.mid-container .mid-container-details .mid-deet p{
+    font-size: 15px;
+    color: hsl(36, 100%, 99%);
+    opacity: .50;
+}
+
+.bottom-container{
+    margin-bottom: 30px;
+}
+
+.bottom-container .child-image img{
+    width: 120px;
+    padding-right: 20px;
+}
+
+.bottom-container .bottom-child-1,
+.bottom-container .bottom-child-2,
+.bottom-container .bottom-child-3{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.number h1{
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+
+.child-details-title h6{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.child-details-exp p{
+    color: hsl(236, 13%, 42%);
+}
